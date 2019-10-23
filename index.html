@@ -25,19 +25,28 @@
                 </div>
                 <div id="form-container">
                     <h2>Create an Intuit account</h2>
-                    <p>One account for everything Intuit, including Mint.</p>
-                    <a href="#">Learn more</a>
+                    <p id="sub-description">One account for everything Intuit, including Mint.</p>
+                    <a id="help-link" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
                     <form>
-                        <label for="email">Email address</label>
-                        <input type="email" id="email" required>
-                        <label for="phone">Phone (recommended)</label>
-                        <input type="tel" id="phone">
-                        <span>Standard call, messaging or data rates may apply.</span>
-                        <label for="password">Password</label>
-                        <input type="password" id="password">
-                        <button id="submit">Create Account</button>
+                        <fieldset>
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="phone">Phone (recommended)</label>
+                            <input type="tel" id="phone">
+                            <span>Standard call, messaging or data rates may apply.</span>
+                        </fieldset>
+                        <fieldset>
+                            <label for="password">Password</label>
+                            <input type="password" id="password">
+                        </fieldset>
+                        <button id="submit">
+                            <img img src="images/lock-icon.png" alt="lock">
+                            Create Account
+                        </button>
                     </form>
-                    <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
+                    <p id="terms-text">By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement</a>.</p>
                 </div>
             </section>
         </main>
