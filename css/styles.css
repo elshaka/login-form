@@ -1,6 +1,46 @@
+body {
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(236, 238, 241);
+}
+
+main {
+    width: 380px;
+    margin: 0 auto;
+}
+
 #intuit-logo {
     display: block;
     width: 118px;
     height: 35px;
     background-image: url("../images/intuit-logos.png");
+    background-size: 562px 83px;
+    margin: 20px auto;
+}
+
+#signup-logos {
+    display: flex;
+    justify-content: center;
+}
+
+#signup-logos a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+#signup-logos img {
+    position: relative;
+    top: 5px;
+}
+
+#form-container {
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    padding: 30px;
+}
+
+#form-container label, #form-container input {
+    display: block;
 }
