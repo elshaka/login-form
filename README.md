@@ -1,6 +1,6 @@
 # HTML Forms
 
-HTML Forms is the second project in the Microverse curriculum. It consists of building an HTML document that almost matches the appearance of (mint's)[mint.com] (signup page)[https://mint.intuit.com/login.event?task=S] .
+HTML Forms is the second project in the Microverse curriculum. It consists of building an HTML document that almost matches the appearance of [mint's](mint.com) [signup page](https://mint.intuit.com/login.event?task=S)
 
 ## Link to assignment
 
