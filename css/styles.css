@@ -21,6 +21,14 @@ button img{
     vertical-align: text-top;
 }
 
+h2{
+    margin: 0;
+    text-align: center;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
 #signin {
     display: flex;
     justify-content: flex-end;
@@ -94,14 +102,6 @@ main {
     padding: 30px;
 }
 
-#form-container h2{
-    margin: 0;
-    text-align: center;
-    color: #4C4C4C;
-    line-height: 1.1;
-    font-size: 24px;
-}
-
 #sub-description{
     text-align: center;
     color: #4C4C4C;
@@ -160,7 +160,6 @@ main {
     line-height: 1.3em;
     font-size: 1.2em;
     color: #000;
-    outline: 0;
     padding-left: 10px;
 }
 
