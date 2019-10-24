@@ -3,6 +3,24 @@ body {
     background-color: rgb(236, 238, 241);
 }
 
+a{
+    color: #0077C5;
+    text-decoration: none;
+}
+
+button {
+    background: #167CCC;
+    border: 1px solid #0077C5;
+    border-radius: 4px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button img{
+    vertical-align: text-top;
+}
+
 #signin {
     display: flex;
     justify-content: flex-end;
@@ -76,11 +94,7 @@ main {
     padding: 30px;
 }
 
-#form-container label, #form-container input {
-    display: block;
-}
-
-h2{
+#form-container h2{
     margin: 0;
     text-align: center;
     color: #4C4C4C;
@@ -95,11 +109,6 @@ h2{
     margin-bottom: 0;
 }
 
-a{
-    color: #0077C5;
-    text-decoration: none;
-}
-
 #help-link{
     display: block;
     text-align: center;
@@ -107,41 +116,43 @@ a{
     padding-bottom: 20px;
 }
 
-#terms-text{
-    font-style: italic;
-    color: #757575;
-    font-size: 12px;
-    text-align: center;
-    line-height: 2;
-}
-
-fieldset{
+#form-container form{
     border: 0;
     padding: 0;
     margin: 0;
     padding-bottom: 30px;
 }
 
-form{
+#form-container form button{
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+}
+
+#form-container form button img {
+    width: 15px;
+}
+
+#form-container fieldset{
     border: 0;
     padding: 0;
     margin: 0;
     padding-bottom: 30px;
 }
 
-label{
+#form-container label, #form-container input {
+    display: block;
+}
+
+#form-container label{
     font-weight: 400;
     color: #404040;
     font-size: 14px;
     line-height: 25px;
     padding-bottom: 6px;
 }
-form span{
-    font-size: 10px;
-    color: #444;
-}
 
-form input{
+#form-container form input{
     width: 100%;
     height: 34px;
     border: 1px solid #C1C5C8;
@@ -153,27 +164,17 @@ form input{
     padding-left: 10px;
 }
 
-button {
-    background: #167CCC;
-    border: 1px solid #0077C5;
-    border-radius: 4px;
-    color: white;
-    text-transform: capitalize;
-    cursor: pointer;
+#form-container form span{
+    font-size: 10px;
+    color: #444;
 }
 
-button img{
-    vertical-align: text-top;
-}
-
-form button{
-    width: 100%;
-    height: 44px;
-    font-size: 14px;
-}
-
-form button img {
-    width: 15px;
+#terms-text{
+    font-style: italic;
+    color: #757575;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2;
 }
 
 #captcha-terms {
